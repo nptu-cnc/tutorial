@@ -4,9 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "parcel src/index.html",
+    "start": "parcel esm/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "browserslist": [
+    "IE 11"
+  ],
   "keywords": [],
   "author": "",
   "license": "ISC",
